@@ -1,5 +1,5 @@
 
-TODO: Az employee szolgáltatás megvalósítása.
+
 TODO: Az employee komponens megvalósítása.
 A project szolgáltatás megvalósítása.
 TODO: A project komponens megvalósítása.
