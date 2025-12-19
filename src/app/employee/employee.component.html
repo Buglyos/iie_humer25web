@@ -1,7 +1,7 @@
 <h1>Dolgozók</h1>
 
 <button class="btn btn-primary" (click)="startShowModal()">
-    Hozzáadás
+    <i class="bi bi-calendar-plus"></i>
 </button>
 
 <table>
@@ -17,8 +17,11 @@
     <tbody>
         @for(emp of employees ; track emp.id) {
             <tr>
-                <td>{{ emp.id }}</td>
-                <td>{{ emp.name }}</td>
+                <td data-column="Id">{{ emp.id }}</td>
+                <td data-column="Név">{{ emp.name }}</td>
+                <td data-column="Település">{{ emp.city }}</td>
+                <td data-column="Fizetés">{{ emp.salary }}</td>
+                <td data-column="Beosztás">{{ emp.rankId }}</td>
                 <td>{{ emp.city }}</td>
                 <td>{{ emp.salary }}</td>
                 <td>{{ emp.rankId }}</td>
